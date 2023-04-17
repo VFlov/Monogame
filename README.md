@@ -1,4 +1,2 @@
-#Practic Monogame
+#Monogame
 
-#Genre
-*Platformer
