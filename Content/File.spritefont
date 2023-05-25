@@ -11,19 +11,19 @@ with.
     <!--
     Modify this string to change the font that will be imported.
     -->
-    <FontName>Arial</FontName>
+    <FontName>Times New Roman</FontName>
 
     <!--
     Size is a float value, measured in points. Modify this value to change
     the size of the font.
     -->
-    <Size>12</Size>
+    <Size>14</Size>
 
     <!--
     Spacing is a float value, measured in pixels. Modify this value to change
     the amount of spacing in between characters.
     -->
-    <Spacing>0</Spacing>
+    <Spacing>1</Spacing>
 
     <!--
     UseKerning controls the layout of the font. If this value is true, kerning information
@@ -50,11 +50,16 @@ with.
     character set. The characters are ordered according to the Unicode standard.
     See the documentation for more information.
     -->
-    <CharacterRegions>
-      <CharacterRegion>
-        <Start>&#32;</Start>
-        <End>&#126;</End>
-      </CharacterRegion>
-    </CharacterRegions>
+	  <CharacterRegions>
+		  <CharacterRegion>
+			  <Start> </Start>
+			  <End>~</End>
+		  </CharacterRegion>
+
+		  <CharacterRegion>
+			  <Start>А</Start>
+			  <End>ј</End>
+		  </CharacterRegion>
+	  </CharacterRegions>
   </Asset>
 </XnaContent>
